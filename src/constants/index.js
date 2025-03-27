@@ -10,14 +10,21 @@ export const ABOUT_TEXT = `Driven by a passion for technology, I am a full stack
 
 export const EXPERIENCES = [
   {
-    year: "Jun 2024 - Present",
+    year: "Feb 2025 - Present",
+    role: "Java Full Stack Developer Intern",
+    company: "Global Quest Technologies",
+    description: `Attended comprehensive training sessions covering Soft Skills, Aptitude, Core Java, and Advanced Java. Strengthened problem solving abilities by solving 50+ Data Structures and Algorithms DSA problems`,
+    technologies: ["Core Java", "Advanced Java", "Spring Boot", "MySQL", "DSA"],
+  },
+  {
+    year: "Jun 2024 - Aug 2024",
     role: "Full Stack Developer Intern",
     company: "Main Flow Services and Technologies",
     description: `Developed company webpage with about 4 type of sections used tools are
-                  React.js, HTML, CSS, Bootstrap, and JavaScript. 
+                  React.js, HTML, CSS, Bootstrap, and JavaScript.
                   Projects like Task Manager Application, Interactive Calculator and Product
                   based Web Pages.`,
-    technologies: ["React.js","Javascript", "Bootstrap", "HTML5","CSS"],
+    technologies: ["React.js", "Javascript", "Bootstrap", "HTML5", "CSS"],
   },
   {
     year: "Nov 2023 - Feb 2024",
@@ -25,39 +32,62 @@ export const EXPERIENCES = [
     company: "NullClass",
     description: `Created an OverStackFlow clone, developed with JavaScript, React.js for
                   dynamic UIs, Redux for state management, and implemented secure
-                  authentication. 
+                  authentication.
                   React and Redux are used for smooth UI interactions and real-time updates,
                   enhancing user experience and application performance. Implemented
                   features such as question posting and user profiles.`,
-    technologies: ["HTML5", "CSS","Git","Node.js","Express.js","MongooseJS",],
-  },
-  {
-    year: "Jun 2023 - Nov 2023",
-    role: "Machine Learning Insight Contributor",
-    company: "Alass Infotech Solution",
-    description: `UHRS (Universal Human Relevance System) is a Microsoft platform that
-                  improves AI and ML systems by having humans evaluate and label data.
-                  Tasks include categorizing data, evaluating relevance, and moderating
-                  content to ensure high-quality training data for algorithms`,
-    technologies: ["Quality Assurance", "Data Annotation", "Tool Proficiency"],
+    technologies: [
+      "HTML5",
+      "CSS",
+      "Git",
+      "Node.js",
+      "Express.js",
+      "MongooseJS",
+    ],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "CodeCraft Portfolio",
+    title: "Wealth Management System",
     image: project1,
     description:
-      "Designed CodeCraft Portfolio, a personal website that highlights projects, experience, and resume. The site includes smooth animations and interactive UI elements, showcasing technical skills and coding craftsmanship.",
-    technologies: ["React.js"," Tailwind CSS", "Framer Motion"],
-    link: "#",
+      "Developed a Wealth Management Platform for 100+ users, optimizing Prisma queries for 40% faster data retrieval and integrating Recharts for financial visualization, boosting engagement by 50%. Automated reports via Resend & React Email, saving 10+ hours/month, and built a scalable backend for seamless performance.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Prisma",
+      "Clerk",
+      "Google Generative AI",
+      "Radix UI",
+      "Inngest",
+      "Resend",
+      "React Email",
+    ],
+    link: "https://wealth-git-main-vishnuemail96s-projects.vercel.app/",
+  },
+  {
+    title: "Finance Company Website",
+    image: project5,
+    description:
+      "Developed a dynamic web platform for a finance company with 4,000+ customers, improving user engagement by 30% through an attractive UI and structured service sections. Integrated Google Sheets for effortless content management, enhanced service accessibility, and streamlined hiring with Google Forms, boosting operational efficiency by 40%.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Google Integration"],
+    link: "https://www.balasrithandayuthapanichits.com/",
   },
   {
     title: "Think Helper Pro AI",
     image: project2,
     description:
       "A modern AI application featuring a responsive interface with a recent tab, a new button, AI reviews, and a concise slogan. It efficiently answers all questions posed by users, ensuring an intuitive and interactive experience.",
-    technologies: ["HTML", "CSS","JavaScript", "React", "Google Generative AI SDK","API Key"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Google Generative AI SDK",
+      "API Key",
+    ],
     link: "https://think-helper-pro.vercel.app/",
   },
   {
@@ -73,21 +103,12 @@ export const PROJECTS = [
     image: project4,
     description:
       "Developed a task manager application featuring functionalities for adding items, deleting items, and tracking the number of projects done and finished.",
-    technologies: ["HTML", "CSS","JavaScript", "React"],
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
     link: "https://task-manager-kappa-henna.vercel.app/",
   },
-  {
-    title: "NexDesign Studios",
-    image: project5,
-    description:
-      "Developed a task manager application featuring functionalities for adding items, deleting items, and tracking the number of projects done and finished.",
-    technologies: ["HTML", "CSS","JavaScript", "React"],
-    link: "https://nex-design-studios.vercel.app/index.html",
-  },
-  
 ];
 
 export const CONTACT = {
   phoneNo: "+91-9159722776",
-  address: " Tiruchirapalli,Tamil Nadu-601314 ",
+  address: "Tiruchirapalli,Tamil Nadu-601314 ",
 };
